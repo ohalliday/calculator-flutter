@@ -28,11 +28,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Widget newButton() {
     return Expanded(
-        child: new MaterialButton(
+        child: new OutlineButton(
           child: new Text("1"),
           onPressed: () => {},
           color: Colors.lightBlue,
-          textColor: Colors.white,
+          textColor: Colors.blue,
     ),
   );
 }
@@ -64,8 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     newButton(),
               ],
         ),
-        
-                Row(
+              Row(
                   children: [
                     newButton(),
                     newButton(),
@@ -73,7 +72,31 @@ class _MyHomePageState extends State<MyHomePage> {
                     newButton(),
               ],
         ),
-                Row(
+              Row(
+                  children: [
+                    newButton(),
+                    newButton(),
+                    newButton(),
+                    newButton(),
+              ],
+        ),
+              Row(
+                  children: [
+                    newButton(),
+                    newButton(),
+                    newButton(),
+                    newButton(),
+              ],
+        ),
+              Row(
+                  children: [
+                    newButton(),
+                    newButton(),
+                    newButton(),
+                    newButton(),
+              ],
+        ),
+              Row(
                   children: [
                     newButton(),
                     newButton(),
