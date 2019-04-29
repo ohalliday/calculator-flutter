@@ -39,11 +39,13 @@ class _MyHomePageState extends State<MyHomePage> {
 
           new Text("0"),
 
-          new MaterialButton(
-            child: new Text("1"),
-            onPressed: () => {},
-            color: Colors.lightBlue,
-            textColor: Colors.white,
+          Expanded(
+              child: new MaterialButton(
+              child: new Text("1"),
+              onPressed: () => {},
+              color: Colors.lightBlue,
+              textColor: Colors.white,
+            ),
           )
         ],)
       )
