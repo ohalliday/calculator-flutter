@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
           new Text("0"),
 
           Row(
-                      children: [
+              children: [
                 Expanded(
                   child: new MaterialButton(
                    child: new Text("1"),
@@ -49,9 +49,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     textColor: Colors.white,
               ),
             ),
-          )
-        ],)
-      )
+          ],
+        ),
+      ],
+    )
+    )
     );
   }
 }
