@@ -39,6 +39,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
           new Text("0"),
 
+          new Expanded(
+            child: new Divider(),
+          ),
+
           Row(
               children: [
                 Expanded(
