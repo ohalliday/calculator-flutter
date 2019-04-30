@@ -30,6 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Expanded(
         child: new OutlineButton(
           child: new Text("1"),
+          padding: EdgeInsets.all(24.0),
           onPressed: () => {},
           color: Colors.lightBlue,
           textColor: Colors.blue,
@@ -45,11 +46,9 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: new Container (
-
-        child: new Column(children: <Widget>[
-
+        child: new Column(
+      children: <Widget>[
           new Text("0"),
-
           new Expanded(
             child: new Divider(),
           ),
@@ -104,11 +103,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     newButton(),
               ],
         ),
-            ],
-          ),  
-      ],
-    )
-    )
+              ],
+            ),  
+          ],
+        )
+      )
     );
   }
 }
