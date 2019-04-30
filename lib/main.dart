@@ -26,10 +26,10 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  Widget newButton() {
+  Widget newButton(String buttonText) {
     return Expanded(
         child: new OutlineButton(
-          child: new Text("1"),
+          child: new Text(buttonText),
           padding: EdgeInsets.all(24.0),
           onPressed: () => {},
           color: Colors.lightBlue,
@@ -57,50 +57,40 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               Row(
                   children: [
-                    newButton(),
-                    newButton(),
-                    newButton(),
-                    newButton(),
+                    newButton("7"),
+                    newButton("8"),
+                    newButton("9"),
+                    newButton("/"),
               ],
         ),
               Row(
                   children: [
-                    newButton(),
-                    newButton(),
-                    newButton(),
-                    newButton(),
+                    newButton("4"),
+                    newButton("5"),
+                    newButton("6"),
+                    newButton("X"),
               ],
         ),
               Row(
                   children: [
-                    newButton(),
-                    newButton(),
-                    newButton(),
-                    newButton(),
+                    newButton("1"),
+                    newButton("2"),
+                    newButton("3"),
+                    newButton("-"),
               ],
         ),
               Row(
                   children: [
-                    newButton(),
-                    newButton(),
-                    newButton(),
-                    newButton(),
+                    newButton("."),
+                    newButton("0"),
+                    newButton("00"),
+                    newButton("+"),
               ],
         ),
               Row(
                   children: [
-                    newButton(),
-                    newButton(),
-                    newButton(),
-                    newButton(),
-              ],
-        ),
-              Row(
-                  children: [
-                    newButton(),
-                    newButton(),
-                    newButton(),
-                    newButton(),
+                    newButton("CLEAR"),
+                    newButton("="),
               ],
         ),
               ],
