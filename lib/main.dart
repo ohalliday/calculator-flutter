@@ -26,7 +26,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   
-  String output = "0";
+  String output = "0"; 
 
   Widget newButton(String buttonText) {
     return Expanded(
